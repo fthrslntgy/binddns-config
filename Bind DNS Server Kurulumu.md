@@ -5,9 +5,8 @@
 Bu yazımızda Debian 10/11 tabanlı Pardus 19.5 ve 21 sunucularda **bind9 DNS Server** kurulumunu ve ayarlamalarını göstereceğiz. Başlamadan önce değinmemiz gereken birkaç nokta var.
 
 - Yazıdaki IP ve makine adresleri tamamen sizlere konuyu kavratmak adına oluşturulmuştur. Lütfen kurulum ve kullanım boyunca kendi adreslerinizi kullanmayı ihmal etmeyiniz.
-- Resimlerin bazı kısımlarında üstü kapatılan bölümler kullanılan makinelerin IP bloklarını gizlemek adına gizlenmiştir. Kapalı bölümlerin büyük bir kısmını aşağıda da belirtileceği üzere `14.8.18` (reverse zone kısımlar için `18.8.14`) olarak kabul edebilirsiniz.
+- Resimlerin bazı kısımlarında üstü kapatılan bölümler kullanılan makinelerin IP bloklarını gizlemek adına kapatılmıştır. Beyaz renkle kapatılan bölümlerin büyük bir kısmını aşağıda da belirtileceği üzere `14.8.18` (reverse zone kısımlar için `18.8.14`) olarak kabul edebilirsiniz.
 - Kurulumda kullanılan konfigürasyon dosyalarını [GitHub reposunda](https://github.com/fthrslntgy/domainnameservice) bulabilirsiniz.
-- Yazı ile ilgili sorular/sorunlar için fatiharslantugay@gmail.com adresinden ulaşabilirsiniz.
 
 ## Kurulum
 
