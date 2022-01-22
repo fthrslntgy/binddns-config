@@ -16,4 +16,4 @@ sudo cp -r dnsclient/etc/* /etc/
 
 komutlarını kullanabilirsiniz. Sonrasında ise kurulum dokümanındaki yönergelere göre kendi makinelerinize göre değişiklikler yapınız.
 
-Fatih Arslan Tugay - 2021
+*Fatih Arslan Tugay - 2021*
