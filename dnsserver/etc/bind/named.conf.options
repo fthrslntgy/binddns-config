@@ -1,0 +1,19 @@
+acl "trusted" {
+	14.8.18.121; # dns serverim
+	14.8.18.120; # dns clientim
+};
+
+options {
+	directory "/var/cache/bind";
+	recursion yes;
+	allow-recursion { trusted; }; # yukarida trusted olarak tanimladigim hostlara recursive query izni veriyorum
+	listen-on { 14.8.18.121; }; # nameserver ozel IP adresi
+	
+	forwarders {
+		8.8.8.8; # google dns
+		8.8.4.4;
+	};
+
+	dnssec-validation auto;
+	listen-on-v6 { any; };
+};

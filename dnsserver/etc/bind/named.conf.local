@@ -1,0 +1,17 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "testzone.local" {
+	type master;
+	file "/etc/bind/zones/db.testzone.local";
+};
+
+zone "18.8.14.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.14.8.18";
+};
