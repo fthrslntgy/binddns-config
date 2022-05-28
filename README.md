@@ -3,14 +3,14 @@
 **Server Tarafında:**
 
 ```bash
-cd $HOME/Downloads/domainnameservice-main
+cd $HOME/Downloads/binddns-config-main
 sudo cp -r dnsserver/etc/* /etc/
 ```
 
 **Client Tarafında:**
 
 ```bash
-cd $HOME/Downloads/domainnameservice-main
+cd $HOME/Downloads/binddns-config-main
 sudo cp -r dnsclient/etc/* /etc/
 ```
 
